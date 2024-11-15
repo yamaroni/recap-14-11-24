@@ -5,10 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Ini CSS Internal -->
+    <style>
+        .judul-artikel {
+            background-color: aquamarine;
+        }
+    </style>
+
+    <!-- Ini CSS External -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <header style="display: flex; justify-content: space-between;">
+        <!-- Ini CSS Inline -->
+        <h1 style="color: blue;">Ini Kiri</h1>
+        <h1 style="color: red;">Ini Kanan</h1>
+    </header>
 
+    <main>
+        <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+
+        <article>
+            <header class="judul-artikel">
+                <h1>Ini Judul Article</h1>
+            </header>
+
+            <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+        </article>
+    </main>
+
+    <footer>
+        <span>Ini Footer</span>
+    </footer>
 </body>
 
 </html>
